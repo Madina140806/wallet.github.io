@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: #2b2b2b;
+}
+.logo{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+header .header_btn__group{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header .header_btn__group .signUp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn_purple{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: normal;
+    color: #333;
+    background: #A490E6;
+    border-radius: 15px;
+    padding: 9px 62px;
+    text-decoration: none;
+}
+
+.home{
+    width: 100%;
+    height: 600px;
+    padding: 77px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b2b2b;
+}
+.home .content{
+    width: 1080px;
+    height: 446px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+}
+.home .content .content_info{
+    padding: 0 27px;
+    display: flex;
+    flex-direction: column;
+
+}
+.home .content .content_info .title{
+    margin-bottom: 40px;
+}
+.home .content .content_info .subtitle{
+    margin-bottom: 72px;
+}
+.title{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    font-style: normal;
+    color: #fff;
+}
+.subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: normal;
+    color: #fff;
+    opacity: 0.4;
+}
+.btn_yellow{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: normal;
+    text-align: center;
+    color: #333;
+    background: #E8BF59;
+    border-radius: 15px;
+    padding: 9px 37px;
+    text-decoration: none;
+}
+.content_img img{
+    width: 500px;
+    height: 446px;
+    background: #333333;
+    border-radius: 20px;
+}
+.logos{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b2b2b;
+}
+.logos img{
+    width: 931px;
+    height: 35px;
+}
+.product_image{
+    width: 100%;
+    height: 700px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b2b2b;
+}
+.product_image img{
+    background: #FDF5DF;
+    border-radius: 20px;
+    width: 1080px;
+    height: 500px;
+}
+.features{
+    width: 100%;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 123px;
+    background: #2b2b2b;
+}
+.features .features_content{
+    width: 1033px;
+    height: 248px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features .features_content .feature{
+    width: 311px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.icon{
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 32px;
+}
+.icon img{
+    width: 70px;
+    height: 70px;
+}
+.title_two{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+.features .features_content .feature .title_two{
+    margin-bottom: 10px;
+}
+
+.user_feedback{
+    width: 100%;
+    height: 520px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b2b2b;
+}
+.user_feedback .user_feedback__content{
+    width: 1080px;
+    height: 460px;
+    padding: 83px 162px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background: #BFAFF2;
+    border-radius: 20px;
+    
+    
+}
+.user_feedback .user_feedback__content .text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #2b2b2b;
+}
+.user_feedback .user_feedback__content .user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: -520px;
+}
+.user_feedback .user_feedback__content .user img{
+    width: 80px;
+    height: 83px;
+}
+.user_feedback .user_feedback__content .user .user_name{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2b2b2b;
+    opacity: 0.4;
+}
+.user_feedback .user_feedback__content .user .stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.user_feedback .user_feedback__content .user .stars img{
+    width: 20px;
+    height: 20px;
+}
+
+.CTA{
+    width: 100%;
+    height: 600px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b2b2b;
+}
+.CTA .content{
+    width: 1080px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.content_img__two {
+    width: 500px;
+    height: 400px;
+}
+.content_img__two img{
+    width: 100%;
+    height: 100%;
+}
+.CTA .content .content_info .title{
+    margin-bottom: 40px;
+}
+.CTA .content .content_info .subtitle{
+    margin-bottom: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 210px;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #2b2b2b;
+}
+footer .frame{
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+footer .policy{
+    display: flex;
+    gap: 30px;
+}
+footer .email{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+footer .email .email_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+}
+footer .email .email_group {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+footer .email .email_group .email_input{
+    width: 301px;
+    height: 50px;
+    right: 250px;
+    top: 110px;
+    background: #333333;
+    border-radius: 15px;    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    opacity: 0.4;
+    padding: 9px 30px;
+}
